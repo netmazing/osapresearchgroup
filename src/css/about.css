@@ -1,0 +1,127 @@
+.about__inner {
+padding: 90px 20px 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: linear-gradient(rgb(255, 255, 255), rgba(126, 185, 183) 170%)
+}
+
+.about__inner * {
+    max-width: 1024px;
+}
+
+.about__title, .subsection__title {
+    color: rgb(1, 135, 145);
+    font-weight: bold;
+}
+
+.about__title {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.about__info {
+    margin: 20px 0 40px;
+    font-size: 14px;
+}
+
+.subsection {
+    margin: 26px 0;
+}
+
+.subsection__title {
+    font-size: 18px;
+}
+
+.subsection__info {
+ margin: 14px 0;
+ font-size: 14px;
+}
+
+@media (min-width: 360px)  {
+    .about__title, .subsection__title {
+        letter-spacing: 1px;
+    }
+
+    .about__title {
+        font-size: 24px;
+    }
+    
+    .subsection__title {
+        font-size: 20px;
+    }
+
+    .about__info, .subsection__info {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 600px) {
+    .about__inner {
+        padding: 90px 30px 50px;
+        }
+}
+
+@media (min-width: 768px)  {
+    .about {
+        background-image: url('../images/about-background.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .about__inner {
+        padding: 90px 40px;
+        background: linear-gradient(125deg, rgba(255, 255, 255, 0.85) 25%, rgba(126, 185, 183, 0.85) 140%);
+        }
+
+    .about__title, .subsection__title {
+        letter-spacing: 1px;
+    }
+
+    .about__title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .about__info {
+        text-align: center;
+    }
+    
+    .subsection__title {
+        font-size: 22px;
+    }
+
+    .about__info, .subsection__info {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .about__inner {
+        background: linear-gradient(125deg, rgba(255, 255, 255, 0.85), rgba(126, 185, 183, 0.85) 120%)
+    }
+
+    .subsection {
+        margin: 30px 0;
+    }
+}
+
+.about__author {
+    display: block;
+    text-align: right;
+}
+
+.about__btn {
+    margin: 30px 0 10px;
+    display: block;
+    width: 180px;
+    text-align: center;
+    z-index: 10;
+}
+
+@media (min-width: 600px) {
+    .about__btn {
+        width: 210px;
+    }
+}

@@ -1,0 +1,60 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.footer__icons {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__icon {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* .footer__icon img {
+    height: 100px;
+} */
+
+.footer__info {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+.footer__copyrights {
+    line-height: 1.4;
+    text-align: center;
+    font-size: 12px;
+}
+
+.site-author {
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    .footer__icons {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__icon {
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .footer__info {
+        font-size: 18px;
+    }
+
+    .footer__copyrights {
+        font-size: 14px;
+    }
+}

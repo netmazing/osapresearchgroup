@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext');
+
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --primary-color: rgb(1, 135, 145);
+    --primary-color-dark: rgb(2, 63, 77);
+    --primary-color-light: rgb(126, 185, 183);
+    --light: #FFF;
+    --dark: #1A1A1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-color: rgb(1, 135, 145);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+    background: #ddd;
+    background-color: rgb(199, 221, 224);
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 14px rgba(0, 0, 0,0.3)
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(1, 135, 145);
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(1, 135, 145);
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+@media (min-width: 320px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 600px) {
+    .title {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1024px){
+    .title {
+        font-size: 30px;
+    }
+}
+
+.btn {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 8px 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    border: 2px solid rgb(1, 135, 145);
+    color: rgb(1, 135, 145);
+    transition: color .2s 0s linear, background-color .2s 0s linear
+}
+
+.btn::before, .btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(1, 135, 145);
+    z-index: -1;
+    transition: transform .2s .1s linear;
+}
+
+.btn::before {
+    bottom: 0;
+    left: 0;
+    transform: translateX(-105%);
+    transform-origin: left;
+}
+
+.btn::after {
+    top: 0;
+    right: 0;
+    transform-origin: right;
+    transform: translateX(105%);
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    background-color: rgb(1, 135, 145);
+    transition: color .2s .1s linear, background-color .2s .1s linear;
+}
+
+.btn:hover::before, .btn:focus::before,
+.btn:hover::after, .btn:focus::after  {
+    transform: translateX(0);
+    transition: transform .2s linear;
+}
+
+@media(min-width: 768px) {
+    .btn {
+        font-size: 18px;
+    }
+}
+
+
+li {
+    list-style: none;
+}
+
+.link {
+    display: block;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    margin-top: 82px;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(2, 63, 77, .85);
+}
+
+@media (min-height: 600px) and (orientation: portrait) {
+    .header {
+        height: 30vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        margin-top: 62px;
+    }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .header {
+        height: 50vh;
+    }
+}
