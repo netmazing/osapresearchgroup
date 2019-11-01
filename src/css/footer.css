@@ -13,12 +13,16 @@
 
 .footer__icon {
     margin: 10px;
-    font-size: 16px;
+    /* font-size: 16px; */
     text-align: center;
 }
 
-/* .footer__icon img {
-    height: 100px;
+.footer__icon img {
+    height: 80px;
+}
+
+/* .footer__icon .logoUS {
+    width: 140px;
 } */
 
 .footer__info {
@@ -47,7 +51,6 @@
 
     .footer__icon {
         margin: 20px;
-        font-size: 18px;
     }
 
     .footer__info {
@@ -56,5 +59,12 @@
 
     .footer__copyrights {
         font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .footer__icon img {
+        height: 100px;
     }
 }

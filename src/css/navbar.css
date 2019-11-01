@@ -31,6 +31,11 @@
     align-items: center;
     color: white;
     text-decoration: none;
+    /* height: 100%; */
+}
+
+.logo__img {
+    height: 40px;
 }
 
 .menu__hamburger {
@@ -235,6 +240,13 @@
         background-color: transparent;
      }
 
+     .menu__link {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 80px;
+     }
+
      .select-language {
         position: relative;
         width: auto;
@@ -244,6 +256,8 @@
     }
     
     .language-option {
+        display: flex;
+        align-items: center;
         margin: 0;
     }
 }

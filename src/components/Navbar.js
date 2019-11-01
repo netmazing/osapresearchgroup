@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "../css/navbar.css";
 import links from '../constants/links';
+import OsapLogoGraph from '../images/osap-logo-grafika.png';
+
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false);
@@ -12,7 +14,9 @@ const Navbar = () => {
         <nav className="navbar">
           <div className="menu">
             <div className="menu__header">
-              <AniLink fade to='/' className="menu__logo">Logo</AniLink>
+              <AniLink fade to='/' className="menu__logo">
+                <img className="logo__img" src={OsapLogoGraph} alt="osap.usz.edu.pl"/>
+              </AniLink>
               <button type="button" aria-label="menu" title="menu" className={isOpen ? "menu__hamburger menu__hamburger--open" : "menu__hamburger"} onClick={toggleNav}>
                 <span className="hamburger__box">
                   <span className="hamburger__inner"></span>
