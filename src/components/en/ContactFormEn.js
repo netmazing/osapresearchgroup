@@ -78,7 +78,7 @@ export default class ContactFormEn extends Component {
 
     render() {
         return (
-            <form className="contact-form" onSubmit={this.handleSubmit} action={this.state.correct ? "https://formspree.io/netmazing@gmail.com" : ""} method={this.state.correct ? "POST" : ""}>
+            <form className="contact-form" onSubmit={this.handleSubmit} action={this.state.correct ? "https://formspree.io/akodu@usz.edu.pl" : ""} method={this.state.correct ? "POST" : ""}>
                 <p className="contact-form__field">
                     <label className="contact-form__label" htmlFor="name">Name and surname</label>
                     <input className={this.state.errors.nameError && (this.state.name.length <= 5 || this.state.name.indexOf(' ') === -1) ? "contact-form__input contact-form__input--incorrect" : "contact-form__input"} type="text" name="name" id="name" placeholder="John Doe" value={this.state.name} onChange={this.handleChange}/>
