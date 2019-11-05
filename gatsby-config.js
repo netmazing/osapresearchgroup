@@ -65,7 +65,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://osap.usz.edu.pl',
-        sitemap: 'https://osap.uzs.edu.pl/sitemap.xml',
+        sitemap: 'https://osap.usz.edu.pl/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       },
     },
