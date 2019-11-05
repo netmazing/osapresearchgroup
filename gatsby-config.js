@@ -61,13 +61,13 @@ module.exports = {
         accessToken: `2OtN4zC3Jih2zLB3aD_qXea7wWSeB4kCMk6JgfroMQE`,
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-robots-txt',
-    //   options: {
-    //     host: 'https://sipo.netlify.com',
-    //     sitemap: 'https://sipo.netlify.com/sitemap.xml',
-    //     policy: [{ userAgent: '*', allow: '/' }]
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://sipo.netlify.com',
+        sitemap: 'https://sipo.netlify.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      },
+    },
   ],
 }
