@@ -6,6 +6,7 @@ import '../css/index.css';
 import '../css/about.css';
 import '../css/actions.css';
 import SEO from '../components/SEO';
+import TeamList from '../components/team/TeamList'
 
 const index = ({data}) => {
   return (
@@ -42,40 +43,23 @@ const index = ({data}) => {
             <h3 className="subsection__title">Ciągłość i zmiana</h3>
             <p className="subsection__info">„Ciągłość i zmiana” – jak podkreślał prof. Stefan Nowak, a za nim prof. Kazimierz Doktór. Innowacja i tradycja – bo nie da się eksplorować nowych krain bez kompasu. Aby prowadzić nowoczesne badania konieczna jest swoboda, elastyczność, szybka wymiana w sieci komunikacji, ale aby prowadzić badania znaczące, ważne, potrzebne jest zakorzenienie w wartościach, odpowiedzialność, wrażliwość – tego uczymy się od mistrzów i oby ten międzypokoleniowy proces w akademii trwał nadal!</p>
             <span className="about__author">dr. hab Agnieszka Kołodziej-Durnaś prof. US.</span>
+
+            <div className="actions__links">
+            <AniLink className="about__link btn" fade to="/publikacje">Poczytaj nasze artykuły</AniLink>
+            <AniLink className="about__link btn" fade to="/wydarzenia">Zobacz, co organizujemy</AniLink>
+          </div>
           </section>
 
         </div>
+
         </article>
 
-        <section className="actions">
-          <h2 className="actions__title">Nasza działalność</h2>
-          <ul className="actions__list">
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-          </ul>
-
-          <div className="actions__links">
-            <AniLink className="actions__btn btn" fade to="/publikacje">Poczytaj nasze artykuły</AniLink>
-            <AniLink className="actions__btn btn" fade to="/wydarzenia">Zobacz, co organizujemy</AniLink>
-          </div>
-        </section>
+        <section className="team">
+            <header className="team__header header">
+                <h2 className="team__title title">Nasz zespół</h2>
+            </header>
+            <TeamList />
+          </section>
 
       </main>
     </Layout>

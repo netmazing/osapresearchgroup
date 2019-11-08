@@ -68,6 +68,7 @@ background: linear-gradient(rgb(255, 255, 255), rgba(126, 185, 183) 170%)
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .about__inner {
@@ -120,8 +121,20 @@ background: linear-gradient(rgb(255, 255, 255), rgba(126, 185, 183) 170%)
     z-index: 10;
 }
 
+.about__link {
+    margin: 30px 0 10px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    z-index: 10;
+}
+
 @media (min-width: 600px) {
     .about__btn {
         width: 210px;
+    }
+
+    .about__link {
+        width: 300px;
     }
 }

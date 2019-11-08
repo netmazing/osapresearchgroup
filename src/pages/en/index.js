@@ -2,7 +2,9 @@ import React from 'react';
 import LayoutEn from '../../components/en/LayoutEn';
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import '../../css/index.css';
+import '../../css/team.css';
 import SEOen from '../../components/en/SEOen';
+import TeamEnList from '../../components/team/TeamEnList'
 
 const indexEn = () => {
   return (
@@ -45,39 +47,22 @@ const indexEn = () => {
           <section className="subsection">
             <h3 className="subsection__title">Peter Piper picked a peck of pickled peppers</h3>
             <p className="subsection__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut nostrum nam numquam minus perferendis, natus vel quisquam alias quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores similique, recusandae inventore ipsum repudiandae autem reprehenderit, amet dolorum deserunt doloremque fugiat magni totam deleniti in ipsam debitis iusto nihil reiciendis.</p>
+
+            <div className="actions__links">
+            <AniLink className="about__link btn" fade to="/en/publications">Read our articles</AniLink>
+            <AniLink className="about__link btn" fade to="/en/news">Check what we organize</AniLink>
+          </div>
           </section>
+          
         </div>
         </article>
 
-        <section className="actions">
-          <h2 className="actions__title">What We Do</h2>
-          <ul className="actions__list">
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-
-            <li className="actions__item">
-              <span className="actions__icon">icon</span>
-              <span className="actions__action-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sapiente.</span>
-            </li>
-          </ul>
-
-          <div className="actions__links">
-            <AniLink className="actions__btn btn" fade to="/en/publications">Read our articles</AniLink>
-            <AniLink className="actions__btn btn" fade to="/en/news">Check what we organize</AniLink>
-          </div>
-        </section>
+        <section className="team">
+            <header className="team__header header">
+                <h2 className="team__title title">Nasz zespół</h2>
+            </header>
+            <TeamEnList />
+          </section>
 
       </main>
 

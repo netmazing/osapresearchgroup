@@ -1,11 +1,7 @@
 export default [
-    // {
-    //     path: '/',
-    //     name: 'start',
-    // },
     {
-        path: '/zespol',
-        name: 'zespół',
+        path: '/projekty',
+        name: 'projekty',
     },
     {
         path: '/publikacje',

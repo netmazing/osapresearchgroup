@@ -3,7 +3,7 @@ import '../css/footer.css';
 import {useStaticQuery} from 'gatsby';
 import {graphql} from 'gatsby';
 import LogoUS from '../images/logo-us.png';
-import OsapLogoText from '../images/osap-logo-tekst-ang.png';
+import OsapLogoText from '../images/osap-logo-text-ang-small.png';
 
 const getSiteAuthor = graphql`
 query SiteAuthor {
