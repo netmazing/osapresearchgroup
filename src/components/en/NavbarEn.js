@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "../../css/navbar.css";
 import linksEn from '../../constants/linksEn';
-import OsapLogoGraph from '../../images/osap-logo-grafika.png';
+import OsapLogoGraph from '../../images/osap-logo-text-ang-small.png';
 
 const NavbarEn = () => {
   const [isOpen, setNav] = useState(false);
