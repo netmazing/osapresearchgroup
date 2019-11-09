@@ -1,7 +1,3 @@
-/* .publications {
-    
-} */
-
 .publications__header  {
     background-image: url("../images/publications-background.jpg");
 }
@@ -25,7 +21,8 @@
 }
 
 .subsection__info.publication__description {
-    margin: auto;
+    margin: auto auto auto 0;
+    text-align: justify;
 }
 
 .publication__link {

@@ -1,0 +1,49 @@
+.projects__header {
+    background-image: url("../images//about-background.jpg");
+}
+
+.projects-list {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1024px;
+}
+
+.project-item {
+    margin: 70px 0;
+}
+
+.project-item__title {
+    margin-bottom: 10px;
+}
+.project-item__subtitle {
+    margin: 20px 0 6px;
+    font-size: 16px;
+    color: rgb(1, 135, 145);
+}
+
+.project-item__description, .project-item__methodology, .project-item__researchers {
+    font-size: 14px;
+}
+
+.project-item__description, .project-item__methodology{
+    text-align: justify;
+}
+
+@media (min-width: 600px) {
+    .projects-list {
+        padding: 0 40px;
+    }
+
+    .project-item {
+        margin: 70px auto 120px;
+    }
+
+    .project-item__description, .project-item__methodology, .project-item__researchers {
+        font-size: 16px;
+    }
+
+    .project-item__subtitle {
+        font-size: 18px;
+    }
+}
+
