@@ -27,30 +27,25 @@ const indexEn = () => {
         <article id="about" className="about">
           <div className="about__inner">
           <h2 className="about__title">Organization as a Research Area</h2>
-          <p className="about__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat, qui nam illo fugit exercitationem repudiandae maiores iure ullam obcaecati!</p>
 
           <section className="subsection">
-            <h3 className="subsection__title">Processes and Transformations</h3>
-            <p className="subsection__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut nostrum nam numquam minus perferendis, natus vel quisquam alias quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores similique, recusandae inventore ipsum repudiandae autem reprehenderit, amet dolorum deserunt doloremque fugiat magni totam deleniti in ipsam debitis iusto nihil reiciendis.</p>
+            <h3 className="subsection__title">Organization and Management</h3>
+            <p className="subsection__info">In 2007 I was asked to prepare a chapter for the jubilee book of prof. Stanisław Kosiński. It was an honor for me. I wrote a text titled "Hierarchy of master-student relations and heterarchy of research networks - remarks on contemporary scholars". New ones were coming. And although in 2015 I created the Department of Sociology of Organization and Management, I knew that it would not be a rigid structure.</p>
           </section>
 
           <section className="subsection">
-            <h3 className="subsection__title">Structure</h3>
-            <p className="subsection__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut nostrum nam numquam minus perferendis, natus vel quisquam alias quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores similique, recusandae inventore ipsum repudiandae autem reprehenderit, amet dolorum deserunt doloremque fugiat magni totam deleniti in ipsam debitis iusto nihil reiciendis.</p>
+            <h3 className="subsection__title">Activity</h3>
+            <p className="subsection__info">Within less than five years, together with the team, we organized eight nationwide conferences, and published several important - as we think - publications. Also in 2015, I started studying psychology and established scientific contacts with representatives of this discipline. Today we are a team of Sociology and Psychology of Organizations - a research group in the new structure of the University.</p>
           </section>
 
           <section className="subsection">
-            <h3 className="subsection__title">Interpersonal Relations</h3>
-            <p className="subsection__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut nostrum nam numquam minus perferendis, natus vel quisquam alias quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores similique, recusandae inventore ipsum repudiandae autem reprehenderit, amet dolorum deserunt doloremque fugiat magni totam deleniti in ipsam debitis iusto nihil reiciendis.</p>
-          </section>
-
-          <section className="subsection">
-            <h3 className="subsection__title">Peter Piper picked a peck of pickled peppers</h3>
-            <p className="subsection__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aut nostrum nam numquam minus perferendis, natus vel quisquam alias quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores similique, recusandae inventore ipsum repudiandae autem reprehenderit, amet dolorum deserunt doloremque fugiat magni totam deleniti in ipsam debitis iusto nihil reiciendis.</p>
-
+            <h3 className="subsection__title">Continuity and Change</h3>
+            <p className="subsection__info">"Continuity and change" - as emphasized by prof. Stefan Nowak, followed by prof. Kazimierz Doktór. Innovation and tradition - because you can't explore new lands without a compass. In order to conduct modern research, freedom, flexibility and quick exchange in the communication network are necessary, but in order to conduct significant, important research, it is necessary to root in values, responsibility, sensitivity - this is what we learn from masters and may this intergenerational process in the academy continue!</p>
+            <span className="about__author">dr. hab Agnieszka Kołodziej-Durnaś prof. US.</span>
+            
             <div className="actions__links">
-            <AniLink className="about__link btn" fade to="/en/publications">Read our articles</AniLink>
-            <AniLink className="about__link btn" fade to="/en/news">Check what we organize</AniLink>
+            <AniLink className="about__link btn" fade to="/en/publications">Articles</AniLink>
+            <AniLink className="about__link btn" fade to="/en/news">News</AniLink>
           </div>
           </section>
           
@@ -59,7 +54,7 @@ const indexEn = () => {
 
         <section className="team">
             <header className="team__header header">
-                <h2 className="team__title title">Nasz zespół</h2>
+                <h2 className="team__title title">Our Team</h2>
             </header>
             <TeamEnList />
           </section>

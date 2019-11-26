@@ -31,7 +31,7 @@ const index = ({data}) => {
           <section className="subsection">
             <h3 className="subsection__title">Organizacja i zarządzanie</h3>
             <p className="subsection__info">W 2007 roku zostałam poproszona o przygotowanie rozdziału do księgi jubileuszowej prof. Stanisława Kosińskiego. Był to dla mnie zaszczyt. Napisałam tekst pod tytułem „Hierarchia relacji mistrz-uczeń a heterarchia sieci badawczych - uwagi o współczesnych uczonych”. Nadchodziło nowe. I choć w roku 2015 utworzyłam Zakład Socjologii Organizacji i Zarządzania wiedziałam, że nie będzie to sztywna struktura.</p>
-            <a href="https://www.researchgate.net/publication/317826011_Hierarchia_relacji_mistrz-uczen_a_heterarchia_sieci_badawczych_-_uwagi_o_wspolczesnych_uczonych" className="btn about__btn">Czytaj artykuł</a>
+            <a href="https://www.researchgate.net/publication/317826011_Hierarchia_relacji_mistrz-uczen_a_heterarchia_sieci_badawczych_-_uwagi_o_wspolczesnych_uczonych" className="btn about__btn">Artykuł</a>
           </section>
 
           <section className="subsection">
@@ -45,8 +45,8 @@ const index = ({data}) => {
             <span className="about__author">dr. hab Agnieszka Kołodziej-Durnaś prof. US.</span>
 
             <div className="actions__links">
-            <AniLink className="about__link btn" fade to="/publikacje">Poczytaj nasze artykuły</AniLink>
-            <AniLink className="about__link btn" fade to="/wydarzenia">Zobacz, co organizujemy</AniLink>
+            <AniLink className="about__link btn" fade to="/publikacje">Artykuły</AniLink>
+            <AniLink className="about__link btn" fade to="/wydarzenia">Wydarzenia</AniLink>
           </div>
           </section>
 
