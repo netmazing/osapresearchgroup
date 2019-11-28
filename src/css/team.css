@@ -40,7 +40,7 @@
     position: relative;
 }
 
-.team-item__img::after{
+/* .team-item__img::after{
     content: '';
     display: block;
     position: absolute;
@@ -50,7 +50,7 @@
     left: 0;
     background-color: rgba(1, 135, 145, 0.5);
     background: linear-gradient(135deg, rgba(0, 198, 212, 0.5), rgba(1, 135, 145, 0.5));
-}
+} */
 
 @media (min-width: 600px) {
     .team-item__name {
