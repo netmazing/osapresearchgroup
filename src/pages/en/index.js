@@ -30,17 +30,17 @@ const indexEn = () => {
 
           <section className="subsection">
             <h3 className="subsection__title">Organization and Management</h3>
-            <p className="subsection__info">In 2007 I was asked to prepare a chapter for the jubilee book of prof. Stanisław Kosiński. It was an honor for me. I wrote a text titled "Hierarchy of master-student relations and heterarchy of research networks - remarks on contemporary scholars". New ones were coming. And although in 2015 I created the Department of Sociology of Organization and Management, I knew that it would not be a rigid structure.</p>
+            <p className="subsection__info">In 2007 I was asked to prepare a chapter for the jubilee book of prof. Stanisław Kosiński. It was an honor for me. I wrote a text entitled "Hierarchy of master-student relations and heterarchy of research networks - remarks on contemporary scholars". The new was coming. And although in 2015 I created the Department of Sociology of Organization and Management, I knew that it would not be a rigid structure.</p>
           </section>
 
           <section className="subsection">
             <h3 className="subsection__title">Activity</h3>
-            <p className="subsection__info">Within less than five years, together with the team, we organized eight nationwide conferences, and published several important - as we think - publications. Also in 2015, I started studying psychology and established scientific contacts with representatives of this discipline. Today we are a team of Sociology and Psychology of Organizations - a research group in the new structure of the University.</p>
+            <p className="subsection__info">Within less than five years, together with the team, we organized eight nationwide conferences, and published several important - as we think - publications. Also in 2015, I started studying psychology and established scientific contacts with representatives of this discipline. Today we are a team of Organizational Sociology and Psychology - a research group in the new structure of the University.</p>
           </section>
 
           <section className="subsection">
             <h3 className="subsection__title">Continuity and Change</h3>
-            <p className="subsection__info">"Continuity and change" - as emphasized by prof. Stefan Nowak, followed by prof. Kazimierz Doktór. Innovation and tradition - because you can't explore new lands without a compass. In order to conduct modern research, freedom, flexibility and quick exchange in the communication network are necessary, but in order to conduct significant, important research, it is necessary to root in values, responsibility, sensitivity - this is what we learn from masters and may this intergenerational process in the academy continue!</p>
+            <p className="subsection__info">"Continuity and change" - as was emphasized by prof. Stefan Nowak, followed by prof. Kazimierz Doktór. Innovation and tradition - because you can't explore new lands without a compass. In order to conduct modern research, freedom, flexibility and quick exchange in the communication network are necessary, but in order to conduct significant, important research, it is necessary to refer to  values, responsibility, sensitivity - this is what we learn from masters and may this intergenerational process in the academy continue!</p>
             <span className="about__author">dr. hab Agnieszka Kołodziej-Durnaś prof. US.</span>
             
             <div className="actions__links">
